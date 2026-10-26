@@ -2,9 +2,10 @@ import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1 style={ {color: "red", fontSize: "32px", margin: "50px" }} >
-          Welcome to React vite
+    <div className="h-screen flex bg-gray-200 justify-center items-center">
+      <h1
+        style={ {color: "red", fontSize: "32px" }} >
+        Welcome to React vite
       </h1>
     </div>
   )
